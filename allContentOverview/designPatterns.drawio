@@ -1,9 +1,51 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.7">
   <diagram name="第 1 页" id="gysTyXIZiSOpMc8ooDcy">
-    <mxGraphModel>
+    <mxGraphModel dx="2058" dy="1146" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0pmCfgcoOVjo5rlFliIq-1" value="IOC容器" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="509" y="52" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0pmCfgcoOVjo5rlFliIq-2" value="转换接口&lt;div&gt;&amp;lt;interface&amp;gt; ICovert&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="489" y="242" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0pmCfgcoOVjo5rlFliIq-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="0pmCfgcoOVjo5rlFliIq-4" target="0pmCfgcoOVjo5rlFliIq-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0pmCfgcoOVjo5rlFliIq-4" value="A渠道&lt;div&gt;ACovertImpl&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="329" y="342" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0pmCfgcoOVjo5rlFliIq-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="0pmCfgcoOVjo5rlFliIq-6" target="0pmCfgcoOVjo5rlFliIq-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0pmCfgcoOVjo5rlFliIq-6" value="B渠道&lt;div&gt;BCovertImpl&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="489" y="342" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0pmCfgcoOVjo5rlFliIq-7" value="C渠道&lt;div&gt;CCovertImpl&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="649" y="342" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0pmCfgcoOVjo5rlFliIq-8" value="保存渠道列表" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;flipH=1;notch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="179" y="312" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0pmCfgcoOVjo5rlFliIq-9" value="将实例加载到IOC中" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="529" y="122" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="0pmCfgcoOVjo5rlFliIq-10" value="配置中心&lt;div&gt;or&lt;/div&gt;&lt;div&gt;DB&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.direct_data;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="69" y="282" width="100" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0pmCfgcoOVjo5rlFliIq-11" value="读取渠道列表" style="shape=singleArrow;direction=north;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="89" y="132" width="60" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="0pmCfgcoOVjo5rlFliIq-12" value="渠道参数转换上行&amp;amp;下行" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="39" y="52" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0pmCfgcoOVjo5rlFliIq-13" value="" style="shape=doubleArrow;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="229" y="62" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0pmCfgcoOVjo5rlFliIq-14" value="通过beanName获取实例" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="279" y="40" width="150" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
