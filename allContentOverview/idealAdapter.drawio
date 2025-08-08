@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 Edg/138.0.0.0" version="28.0.7">
   <diagram name="第 1 页" id="rHHmESAeXLNnf4UBHQ25">
-    <mxGraphModel dx="4766" dy="933" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="4507" dy="768" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -545,7 +545,7 @@
         <mxCell id="qGwItCddGWUua6QMG_1u-205" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="qGwItCddGWUua6QMG_1u-181" target="qGwItCddGWUua6QMG_1u-183">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qGwItCddGWUua6QMG_1u-181" value="根据消息中的数据遍历得到对应的MqHandler注解对应的方法" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0e8088;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#b0e3e6;" vertex="1" parent="1">
+        <mxCell id="qGwItCddGWUua6QMG_1u-181" value="根据消息中的数据从节点的invokers中得到对应的MqHandler注解对应的方法" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0e8088;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#b0e3e6;" vertex="1" parent="1">
           <mxGeometry x="-158.5" y="2470" width="235" height="50" as="geometry" />
         </mxCell>
         <mxCell id="qGwItCddGWUua6QMG_1u-190" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="qGwItCddGWUua6QMG_1u-183">
@@ -574,7 +574,7 @@
         <mxCell id="qGwItCddGWUua6QMG_1u-200" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="qGwItCddGWUua6QMG_1u-195" target="qGwItCddGWUua6QMG_1u-196">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qGwItCddGWUua6QMG_1u-195" value="调用idealClientInitPrice发送ideal消息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0e8088;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#b0e3e6;" vertex="1" parent="1">
+        <mxCell id="qGwItCddGWUua6QMG_1u-195" value="使用idealClientInitPrice发送ideal消息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0e8088;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#b0e3e6;" vertex="1" parent="1">
           <mxGeometry x="-157.5" y="3010" width="235" height="50" as="geometry" />
         </mxCell>
         <mxCell id="qGwItCddGWUua6QMG_1u-196" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;rounded=1;strokeColor=#0e8088;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#b0e3e6;" vertex="1" parent="1">
@@ -600,17 +600,29 @@
         <mxCell id="qGwItCddGWUua6QMG_1u-211" value="行情下行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
           <mxGeometry x="485" y="1868" width="70" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="qGwItCddGWUua6QMG_1u-237" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="qGwItCddGWUua6QMG_1u-212" target="qGwItCddGWUua6QMG_1u-213">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qGwItCddGWUua6QMG_1u-212" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;rounded=1;strokeColor=#0e8088;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#b0e3e6;" vertex="1" parent="1">
-          <mxGeometry x="590" y="1910" width="100" height="60" as="geometry" />
+          <mxGeometry x="600" y="1910" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qGwItCddGWUua6QMG_1u-236" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="qGwItCddGWUua6QMG_1u-213" target="qGwItCddGWUua6QMG_1u-214">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qGwItCddGWUua6QMG_1u-213" value="Ideal发送货币对行情消息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0e8088;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#b0e3e6;" vertex="1" parent="1">
-          <mxGeometry x="550" y="2020" width="190" height="40" as="geometry" />
+          <mxGeometry x="555" y="2020" width="190" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qGwItCddGWUua6QMG_1u-235" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="qGwItCddGWUua6QMG_1u-214" target="qGwItCddGWUua6QMG_1u-215">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qGwItCddGWUua6QMG_1u-214" value="&lt;font style=&quot;color: rgb(0, 0, 0);&quot;&gt;IdealPriceMsgHandleServiceImpl.&lt;/font&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;readmessage(Imessage)处理&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0e8088;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#b0e3e6;" vertex="1" parent="1">
           <mxGeometry x="555" y="2130" width="190" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="qGwItCddGWUua6QMG_1u-234" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="qGwItCddGWUua6QMG_1u-215" target="qGwItCddGWUua6QMG_1u-218">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="qGwItCddGWUua6QMG_1u-215" value="IdealPriceMsgHandlerChain&lt;div&gt;.readMessage(Imeesage)依次遍历责任链节点（&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;IdealPriceMsgHandlerChain的子类&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;）&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0e8088;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#b0e3e6;" vertex="1" parent="1">
-          <mxGeometry x="525" y="2226" width="240" height="40" as="geometry" />
+          <mxGeometry x="530" y="2226" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qGwItCddGWUua6QMG_1u-217" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;dashed=1;dashPattern=1 2;curved=1;" edge="1" parent="1" source="qGwItCddGWUua6QMG_1u-216" target="qGwItCddGWUua6QMG_1u-215">
           <mxGeometry relative="1" as="geometry" />
@@ -618,11 +630,58 @@
         <mxCell id="qGwItCddGWUua6QMG_1u-216" value="&lt;div&gt;1.如果当前节点可以处理该消息，在&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;ThreadLocal中设置invokerFlag，中断后面节点的处理&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;rounded=1;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="220" y="2183" width="260" height="83" as="geometry" />
         </mxCell>
-        <mxCell id="qGwItCddGWUua6QMG_1u-218" value="根据消息.className遍历得到对应的onMessage方法中参数的类名相同的方法" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0e8088;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#b0e3e6;" vertex="1" parent="1">
+        <mxCell id="qGwItCddGWUua6QMG_1u-233" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="qGwItCddGWUua6QMG_1u-218" target="qGwItCddGWUua6QMG_1u-219">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qGwItCddGWUua6QMG_1u-218" value="根据消息.className从节点的invokers中得到对应的onMessage方法中参数的类名相同的方法" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0e8088;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#b0e3e6;" vertex="1" parent="1">
           <mxGeometry x="532.5" y="2341" width="235" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="qGwItCddGWUua6QMG_1u-219" value="渠道" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;strokeColor=#0e8088;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#b0e3e6;" vertex="1" parent="1">
+        <mxCell id="qGwItCddGWUua6QMG_1u-221" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="qGwItCddGWUua6QMG_1u-219" target="qGwItCddGWUua6QMG_1u-220">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qGwItCddGWUua6QMG_1u-219" value="ideal消息不为空 &amp;amp;&amp;amp;&lt;div&gt;消息中行情列表不为空&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;rounded=1;strokeColor=#0e8088;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#b0e3e6;" vertex="1" parent="1">
           <mxGeometry x="552.5" y="2450" width="195" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="qGwItCddGWUua6QMG_1u-230" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="qGwItCddGWUua6QMG_1u-220" target="qGwItCddGWUua6QMG_1u-223">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qGwItCddGWUua6QMG_1u-220" value="根据渠道从CovertBaseHandlerMap中获取到参数转换类XXXPriceCovert" style="whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;strokeWidth=2;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="555" y="2620" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qGwItCddGWUua6QMG_1u-222" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="640" y="2568" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qGwItCddGWUua6QMG_1u-229" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="qGwItCddGWUua6QMG_1u-223" target="qGwItCddGWUua6QMG_1u-224">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qGwItCddGWUua6QMG_1u-223" value="根据渠道和订阅方法名得到HandleType注解在XXXPriceCovert类中对应的方法" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0e8088;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#b0e3e6;" vertex="1" parent="1">
+          <mxGeometry x="532.5" y="2760" width="235" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qGwItCddGWUua6QMG_1u-226" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="qGwItCddGWUua6QMG_1u-224" target="qGwItCddGWUua6QMG_1u-225">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qGwItCddGWUua6QMG_1u-224" value="执行参数转换逻辑得到对应的mq消息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0e8088;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#b0e3e6;" vertex="1" parent="1">
+          <mxGeometry x="532.5" y="2890" width="235" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qGwItCddGWUua6QMG_1u-228" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="qGwItCddGWUua6QMG_1u-225" target="qGwItCddGWUua6QMG_1u-227">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qGwItCddGWUua6QMG_1u-225" value="使用jmsTemplatePrice发送iMq消息" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;strokeColor=#0e8088;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#b0e3e6;" vertex="1" parent="1">
+          <mxGeometry x="532.5" y="3000" width="235" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qGwItCddGWUua6QMG_1u-227" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;rounded=1;strokeColor=#0e8088;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#b0e3e6;" vertex="1" parent="1">
+          <mxGeometry x="600.5" y="3110" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qGwItCddGWUua6QMG_1u-231" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="qGwItCddGWUua6QMG_1u-219" target="qGwItCddGWUua6QMG_1u-227">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="2500" />
+              <mxPoint x="490" y="3140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qGwItCddGWUua6QMG_1u-232" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="1">
+          <mxGeometry x="500" y="2498" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
