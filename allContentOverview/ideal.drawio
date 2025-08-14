@@ -35,7 +35,7 @@
           <mxGeometry x="560" y="40" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="km_SG5tugSLurCO1izbF-10" value="行情/交易上行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1095" y="38" width="100" height="30" as="geometry" />
+          <mxGeometry x="1340" y="58" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="km_SG5tugSLurCO1izbF-11" value="行情/交易下行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1910" y="40" width="100" height="30" as="geometry" />
