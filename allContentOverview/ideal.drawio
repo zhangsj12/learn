@@ -1,9 +1,93 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="28.0.7">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="28.1.0">
   <diagram name="第 1 页" id="BDrbMHMGb_dMdzZkM7Pg">
-    <mxGraphModel>
+    <mxGraphModel dx="1088" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="km_SG5tugSLurCO1izbF-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="km_SG5tugSLurCO1izbF-22" target="km_SG5tugSLurCO1izbF-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="km_SG5tugSLurCO1izbF-22" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="360" y="102" width="190" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="km_SG5tugSLurCO1izbF-8" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="30" y="90" width="200" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="km_SG5tugSLurCO1izbF-2" value="ideal" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="km_SG5tugSLurCO1izbF-3" value="UBS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="70" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="km_SG5tugSLurCO1izbF-4" value="HSBC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="70" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="km_SG5tugSLurCO1izbF-5" value="GS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="70" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="km_SG5tugSLurCO1izbF-6" value="FXALL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="70" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="km_SG5tugSLurCO1izbF-7" value="....." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="100" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="km_SG5tugSLurCO1izbF-9" value="启动" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="560" y="40" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="km_SG5tugSLurCO1izbF-10" value="行情/交易上行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1095" y="38" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="km_SG5tugSLurCO1izbF-11" value="行情/交易下行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="40" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="km_SG5tugSLurCO1izbF-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="km_SG5tugSLurCO1izbF-13" target="km_SG5tugSLurCO1izbF-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="km_SG5tugSLurCO1izbF-13" value="appStartServiceImpl的afterPropertiesSet()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="102" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="km_SG5tugSLurCO1izbF-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="km_SG5tugSLurCO1izbF-14" target="km_SG5tugSLurCO1izbF-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="km_SG5tugSLurCO1izbF-14" value="init()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="242" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="km_SG5tugSLurCO1izbF-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;curved=1;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="km_SG5tugSLurCO1izbF-16" target="km_SG5tugSLurCO1izbF-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="km_SG5tugSLurCO1izbF-16" value="start()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="645" y="382" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="km_SG5tugSLurCO1izbF-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="km_SG5tugSLurCO1izbF-18" target="km_SG5tugSLurCO1izbF-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="km_SG5tugSLurCO1izbF-18" value="protocolService.init()&lt;div&gt;协议初始化：XnetClient信息的初始化&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="385" y="150" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="km_SG5tugSLurCO1izbF-20" value="heartBeatRunable.start()&lt;div&gt;启动心跳检查：创建一个线程，命名心跳检测，调start()&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="370" y="302" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="km_SG5tugSLurCO1izbF-24" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="828.76" y="290" width="340" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="km_SG5tugSLurCO1izbF-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="km_SG5tugSLurCO1izbF-26" target="km_SG5tugSLurCO1izbF-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="km_SG5tugSLurCO1izbF-26" value="fixService.start()&lt;div&gt;1.初始化和系统连接：渠道配置得到sessionSettings&lt;/div&gt;&lt;div&gt;生成ThreadedSocketInitiator&lt;/div&gt;&lt;div&gt;2.从&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;sessionSettings中获取SessionId，然后创建队列线程，然后以&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SessionId为key，value是线程&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3.每个sessionid登陆&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;4.将session放入session缓存池中&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="857.5" y="330" width="282.5" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="km_SG5tugSLurCO1izbF-30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="km_SG5tugSLurCO1izbF-27" target="km_SG5tugSLurCO1izbF-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="km_SG5tugSLurCO1izbF-27" value="protocolService.start()&lt;div&gt;1.&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;创建队列线程，然后以&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;XNET_DATA_QUEUE为key，value是线程&lt;/span&gt;&lt;br&gt;&lt;div&gt;2.调用xnetClient的start()，&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;连接到xnet&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="896.88" y="490" width="203.75" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="km_SG5tugSLurCO1izbF-28" value="渠道维度的过程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="255" y="28" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="km_SG5tugSLurCO1izbF-29" value="启动fix连接的定时登陆登出" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="896.88" y="610" width="203.75" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
