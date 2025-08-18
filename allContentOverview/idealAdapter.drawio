@@ -1029,8 +1029,8 @@
         <mxCell id="MXGi-TY2GJ7XGNcBM4Lo-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MXGi-TY2GJ7XGNcBM4Lo-68" target="MXGi-TY2GJ7XGNcBM4Lo-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MXGi-TY2GJ7XGNcBM4Lo-68" value="从配置列表中得到对应的配置，然后解析得到两种数据结构的配置列表：｛XXXXXX,XXXXXX｝&lt;div&gt;｛XXX/XXX,XXX/XXX｝&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="1241.88" y="3720" width="176.25" height="60" as="geometry" />
+        <mxCell id="MXGi-TY2GJ7XGNcBM4Lo-68" value="从配置列表中得到对应的配置，然后解析得到两种数据结构的配置列表：｛XXXXXX,XXXXXX｝&lt;div&gt;｛XXX/XXX,XXX/XXX｝&lt;/div&gt;&lt;div&gt;只有第一次需要解析&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1242.44" y="3710" width="176.25" height="80" as="geometry" />
         </mxCell>
         <mxCell id="MXGi-TY2GJ7XGNcBM4Lo-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="MXGi-TY2GJ7XGNcBM4Lo-72">
           <mxGeometry relative="1" as="geometry">
