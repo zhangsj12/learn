@@ -1,9 +1,116 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="28.1.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="28.1.1">
   <diagram name="第 1 页" id="F5nD6UQnpaVINqH5NKiG">
-    <mxGraphModel>
+    <mxGraphModel dx="1034" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ihLa-Vwcj29g1kC6fMQ9-13" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="550" y="220" width="490" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="ihLa-Vwcj29g1kC6fMQ9-1" value="入口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="155" y="68" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ihLa-Vwcj29g1kC6fMQ9-2" value="etrading-market-dc的&lt;div&gt;step.yaml&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="113" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ihLa-Vwcj29g1kC6fMQ9-3" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="330" y="93" width="180" height="197" as="geometry" />
+        </mxCell>
+        <mxCell id="ihLa-Vwcj29g1kC6fMQ9-4" value="step:&lt;div&gt;calBarQuoteStep&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="355" y="180" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ihLa-Vwcj29g1kC6fMQ9-5" value="event：quoteFlowDealEvent" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="340" y="118" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ihLa-Vwcj29g1kC6fMQ9-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ihLa-Vwcj29g1kC6fMQ9-6" target="ihLa-Vwcj29g1kC6fMQ9-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ihLa-Vwcj29g1kC6fMQ9-6" value="AbstractCalBarQuoteStepService" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="625" y="140" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ihLa-Vwcj29g1kC6fMQ9-8" value="路由" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="200" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ihLa-Vwcj29g1kC6fMQ9-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ihLa-Vwcj29g1kC6fMQ9-9" target="ihLa-Vwcj29g1kC6fMQ9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ihLa-Vwcj29g1kC6fMQ9-9" value="FxSpotCalBarQuoteStepService" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="560" y="260" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ihLa-Vwcj29g1kC6fMQ9-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ihLa-Vwcj29g1kC6fMQ9-11" target="ihLa-Vwcj29g1kC6fMQ9-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="920" y="230" />
+              <mxPoint x="730" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ihLa-Vwcj29g1kC6fMQ9-11" value="FxFwdCalBarQuoteStepService" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="820" y="260" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ihLa-Vwcj29g1kC6fMQ9-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.01;entryY=0.165;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;" edge="1" parent="1" source="ihLa-Vwcj29g1kC6fMQ9-4" target="ihLa-Vwcj29g1kC6fMQ9-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ihLa-Vwcj29g1kC6fMQ9-18" value="即期流程：&lt;div&gt;buildEvens方法&lt;br&gt;&lt;div&gt;1.获取上下文中的深度行情，组装深度BarEvent&lt;/div&gt;&lt;div&gt;2.获取上下文中的最优行情，组装最优BarEvent&lt;/div&gt;&lt;/div&gt;&lt;div&gt;barGroup=channel+货币对+即期&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="340" width="140" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ihLa-Vwcj29g1kC6fMQ9-19" value="CalBarQuoteStepService" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="650" y="38" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ihLa-Vwcj29g1kC6fMQ9-21" value="barSwitch&amp;nbsp;开关 ON、OFF&lt;div&gt;buildEvents方法&lt;/div&gt;&lt;div&gt;CalBarThreadPool.addEvent(event)&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="120" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ihLa-Vwcj29g1kC6fMQ9-22" value="CarBarThreadPool" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ihLa-Vwcj29g1kC6fMQ9-23" value="setApplicationContext方法&lt;div&gt;barGroupList获取配置bar.group.list&lt;/div&gt;&lt;div&gt;创建线程池，然后启动核心线程&lt;/div&gt;&lt;div&gt;将barEvent转换为BarPojo的逻辑放入EventHandlers中&lt;/div&gt;&lt;div&gt;遍历&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;barGroupList，&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;根据线程数得到barGroup对应的线程下标，放入到BAR_GROUP_HASH&amp;lt;barGroup,下标&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;遍历线程数量，创建线程提交到线程池，并放入列表RUNNING_THREADS中&lt;/div&gt;&lt;div&gt;此时，处理逻辑已经跟线程绑定，&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;barGroup只需要通过&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;barGroupList的下标就能从&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;RUNNING_THREADS中得到对应的处理线程&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="125" width="600" height="115" as="geometry" />
+        </mxCell>
+        <mxCell id="ihLa-Vwcj29g1kC6fMQ9-24" value="CalBarThreadPool.addEvent(event)的逻辑&lt;div&gt;通过&lt;span style=&quot;text-align: left; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;BAR_GROUP_HASH判断有没有barGroup，然后根据barGroup从&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;BAR_GROUP_HASH&lt;/span&gt;&lt;span style=&quot;text-align: left; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;中得到线程下标，然后从&lt;/span&gt;&lt;span style=&quot;text-align: left; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;RUNNING_THREADS中获取到处理线程&lt;/span&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="1190" y="80" width="240" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ihLa-Vwcj29g1kC6fMQ9-25" value="线程池调用了线程的addEvent方法&lt;div&gt;队列添加event&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="320" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ihLa-Vwcj29g1kC6fMQ9-26" value="CarBarThread" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ihLa-Vwcj29g1kC6fMQ9-27" value="处理barEven的方法loopBody()&lt;div&gt;通过type(instrument)从handlers中得到对应的处理逻辑统一得到Bar数据的标准输入InpuParam&lt;/div&gt;&lt;div&gt;获取Bar计算的频率支持&lt;/div&gt;&lt;div&gt;1N;5N;15N;30N;1H;4H;1D;1W;1M&lt;/div&gt;&lt;div&gt;调用execte(inputParam,计算频率)&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="375" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ihLa-Vwcj29g1kC6fMQ9-28" value="深度行情BarEvent的处理逻辑赋值&lt;div&gt;合约编码&lt;/div&gt;&lt;div&gt;类型后缀&amp;nbsp; BAR_DEPTH&lt;/div&gt;&lt;div&gt;渠道&lt;/div&gt;&lt;div&gt;实体(货币对)&lt;/div&gt;&lt;div&gt;产品小类&lt;/div&gt;&lt;div&gt;买卖价&lt;/div&gt;&lt;div&gt;日期时间&lt;/div&gt;&lt;div&gt;量额&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="2020" y="290" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ihLa-Vwcj29g1kC6fMQ9-29" value="最优行情BarEvent的处理逻辑赋值&lt;div&gt;&lt;div&gt;合约编码&lt;/div&gt;&lt;div&gt;类型后缀&amp;nbsp; BAR_BEST&lt;/div&gt;&lt;div&gt;渠道&lt;/div&gt;&lt;div&gt;实体(货币对)&lt;/div&gt;&lt;div&gt;产品小类&lt;/div&gt;&lt;div&gt;买卖价&lt;/div&gt;&lt;div&gt;日期时间&lt;/div&gt;&lt;div&gt;量额&lt;/div&gt;&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="2020" y="500" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ihLa-Vwcj29g1kC6fMQ9-30" value="创建BarListMap存放&lt;div&gt;CLOSE_BAR上一时间结束的Bar&lt;/div&gt;&lt;div&gt;TICK_BAR当前时间段开始的Bar&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="550" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ihLa-Vwcj29g1kC6fMQ9-31" value="获取报文的发送时间&lt;div&gt;得到相同合约编号+渠道+类型对应的上一个行情oldInputParama&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="660" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ihLa-Vwcj29g1kC6fMQ9-33" value="创建BarListMap存放&lt;div&gt;CLOSE_BAR上一时间结束的Bar&lt;/div&gt;&lt;div&gt;TICK_BAR当前时间段开始的Bar&lt;/div&gt;&lt;div&gt;当前&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="880" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ihLa-Vwcj29g1kC6fMQ9-34" value="CalBarService.calBar方法&lt;div&gt;判断inputParam的时间是否在交易时间段&lt;/div&gt;&lt;div&gt;调用calBarByFrequency方法&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="590" width="270" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ihLa-Vwcj29g1kC6fMQ9-35" value="当前行情的时间&amp;gt;&lt;div&gt;上一行情的时间&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1682.5" y="770" width="165" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ihLa-Vwcj29g1kC6fMQ9-36" value="获取当前行情的价格&lt;div&gt;遍历Bar计算频率&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="920" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ihLa-Vwcj29g1kC6fMQ9-37" value="获取当前行情的价格&lt;div&gt;遍历Bar计算频率&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="1050" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ihLa-Vwcj29g1kC6fMQ9-38" value="当前行情的时间&amp;gt;&lt;div&gt;上一行情的时间&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1660" y="1270" width="165" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ihLa-Vwcj29g1kC6fMQ9-39" value="根据频率+合约编号+渠道+类型+Bar后缀" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="1170" width="150" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
