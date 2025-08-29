@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36 Edg/139.0.0.0" version="28.1.1">
   <diagram name="第 1 页" id="rHHmESAeXLNnf4UBHQ25">
-    <mxGraphModel dx="7436" dy="2664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="4449" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="11fCqvByGFl5Na5N81W_-29" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="3805" width="405" height="365" as="geometry" />
+        </mxCell>
         <mxCell id="MXGi-TY2GJ7XGNcBM4Lo-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;endArrow=none;endFill=0;" parent="1" source="MXGi-TY2GJ7XGNcBM4Lo-5" target="MXGi-TY2GJ7XGNcBM4Lo-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -142,7 +145,7 @@
         <mxCell id="qGwItCddGWUua6QMG_1u-46" value="数据上行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=12;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="1050" y="1047" width="70" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qGwItCddGWUua6QMG_1u-47" value="根据原有IMessageCracker修改得到，只是修改了crack()方法，支持如果当前chain能处理消息，后续节点不再执行，直接结束" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=left;" parent="1" vertex="1">
+        <mxCell id="qGwItCddGWUua6QMG_1u-47" value="根据原有IMessageCracker修改得到，&lt;strike&gt;只是修改了crack()方法，支持如果当前chain能处理消息，后续节点不再执行，直接结束&lt;/strike&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1940" y="240" width="180" height="97" as="geometry" />
         </mxCell>
         <mxCell id="qGwItCddGWUua6QMG_1u-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;curved=1;" parent="1" source="qGwItCddGWUua6QMG_1u-48" target="qGwItCddGWUua6QMG_1u-44" edge="1">
@@ -1141,6 +1144,12 @@
         </mxCell>
         <mxCell id="11fCqvByGFl5Na5N81W_-26" value="onMessage&lt;div&gt;处理LoginResult&lt;/div&gt;&lt;div&gt;向下游发成功心跳消息&lt;/div&gt;&lt;div&gt;处理HeartBeat消息&lt;/div&gt;&lt;div&gt;更新渠道在redis中的时间&lt;/div&gt;&lt;div&gt;处理SysSatus&lt;/div&gt;&lt;div&gt;判断所有的session状态时都是正常的0，并放入内存中状态为0，相反放入状态为1&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-600" y="820" width="250" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="11fCqvByGFl5Na5N81W_-28" value="行情下行校验流程&lt;div&gt;首次&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="3335" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="11fCqvByGFl5Na5N81W_-30" value="行情下行校验非首次流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="3820" width="160" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
