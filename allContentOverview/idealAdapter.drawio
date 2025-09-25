@@ -1,9 +1,18 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36 Edg/140.0.0.0" version="28.1.1">
   <diagram name="第 1 页" id="rHHmESAeXLNnf4UBHQ25">
-    <mxGraphModel dx="4334" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
+    <mxGraphModel dx="4285" dy="634" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="q8mAmE_B314rXEbR-qWp-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="5450" width="248.75" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-15" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-201.25" y="5300" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-13" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-200" y="5050" width="220" height="240" as="geometry" />
+        </mxCell>
         <mxCell id="11fCqvByGFl5Na5N81W_-29" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
           <mxGeometry x="1140" y="3805" width="405" height="365" as="geometry" />
         </mxCell>
@@ -11,7 +20,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MXGi-TY2GJ7XGNcBM4Lo-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-30" y="3430" width="220" height="380" as="geometry" />
+          <mxGeometry x="-251.25" y="3440" width="220" height="380" as="geometry" />
         </mxCell>
         <mxCell id="qGwItCddGWUua6QMG_1u-158" value="" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="3510" y="320" width="920" height="740" as="geometry" />
@@ -788,25 +797,25 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="MXGi-TY2GJ7XGNcBM4Lo-1" value="PAIR_CONFIG_PRICE&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PAIR_CONFIG&lt;/span&gt;_TRADE&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="290" y="3520" width="140" height="60" as="geometry" />
+          <mxGeometry x="68.75" y="3530" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MXGi-TY2GJ7XGNcBM4Lo-2" value="redis0" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="20" y="3480" width="120" height="60" as="geometry" />
+          <mxGeometry x="-201.25" y="3490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MXGi-TY2GJ7XGNcBM4Lo-3" value="redis1" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="20" y="3600" width="120" height="60" as="geometry" />
+          <mxGeometry x="-201.25" y="3610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MXGi-TY2GJ7XGNcBM4Lo-4" value="redis2" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="20" y="3720" width="120" height="60" as="geometry" />
+          <mxGeometry x="-201.25" y="3730" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MXGi-TY2GJ7XGNcBM4Lo-7" value="PAIR_CONFIG_INDEX_PRICE&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;PAIR_CONFIG_INDEX&lt;/span&gt;_TRADE&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="295" y="3680" width="190" height="60" as="geometry" />
+          <mxGeometry x="73.75" y="3690" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MXGi-TY2GJ7XGNcBM4Lo-9" value="0&lt;div&gt;1&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="523.75" y="3680" width="62.5" height="60" as="geometry" />
+          <mxGeometry x="302.5" y="3690" width="62.5" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="MXGi-TY2GJ7XGNcBM4Lo-10" value="PAIR_CONFIG_DATA_INDEX_系统ip&lt;div&gt;PAIR_CONFIG_DATA_INDEX_系统ip&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="440" y="3520" width="220" height="60" as="geometry" />
+        <mxCell id="MXGi-TY2GJ7XGNcBM4Lo-10" value="PAIR_CONFIG_DATA_INDEX_${APPLICATION_NUM}&lt;div&gt;PAIR_CONFIG_DATA_INDEX_&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;${APPLICATION_NUM}&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="232.5" y="3530" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MXGi-TY2GJ7XGNcBM4Lo-11" value="初始化流程" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="745" y="3370" width="80" height="30" as="geometry" />
@@ -814,8 +823,8 @@
         <mxCell id="MXGi-TY2GJ7XGNcBM4Lo-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MXGi-TY2GJ7XGNcBM4Lo-12" target="MXGi-TY2GJ7XGNcBM4Lo-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MXGi-TY2GJ7XGNcBM4Lo-12" value="1.读取配置文件中的pairsList&lt;div&gt;2.当前服务器的ip&lt;/div&gt;&lt;div&gt;3.当前应用price/trade&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="837.5" y="3440" width="165" height="60" as="geometry" />
+        <mxCell id="MXGi-TY2GJ7XGNcBM4Lo-12" value="1.读取配置文件中的pairsList&lt;div&gt;2.当前服务器的&lt;span style=&quot;text-align: center; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;${APPLICATION_NUM}&lt;/span&gt;&lt;/div&gt;&lt;div&gt;3.当前应用price/trade&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="813.76" y="3440" width="212.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MXGi-TY2GJ7XGNcBM4Lo-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="MXGi-TY2GJ7XGNcBM4Lo-12" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -825,11 +834,11 @@
         <mxCell id="MXGi-TY2GJ7XGNcBM4Lo-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MXGi-TY2GJ7XGNcBM4Lo-15" target="MXGi-TY2GJ7XGNcBM4Lo-19" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="MXGi-TY2GJ7XGNcBM4Lo-15" value="从redis中的&lt;span style=&quot;text-align: center;&quot;&gt;PAIR_CONFIG_Price/&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center; background-color: transparent;&quot;&gt;PAIR_CONFIG&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;_Trade中获取&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;PAIR_CONFIG_DATA_INDEX_系统ip的值&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="804.38" y="3550" width="231.25" height="60" as="geometry" />
+        <mxCell id="MXGi-TY2GJ7XGNcBM4Lo-15" value="从redis中的&lt;span style=&quot;text-align: center;&quot;&gt;PAIR_CONFIG_Price/&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-align: center; background-color: transparent;&quot;&gt;PAIR_CONFIG&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;_Trade中获取&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;text-align: center;&quot;&gt;PAIR_CONFIG_DATA_INDEX_&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;${APPLICATION_NUM}&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;的值&lt;/span&gt;&lt;span style=&quot;text-align: center;&quot;&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="766.87" y="3540" width="305.63" height="60" as="geometry" />
         </mxCell>
         <mxCell id="MXGi-TY2GJ7XGNcBM4Lo-17" value="map结构" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="295" y="3478" width="70" height="30" as="geometry" />
+          <mxGeometry x="73.75" y="3488" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MXGi-TY2GJ7XGNcBM4Lo-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MXGi-TY2GJ7XGNcBM4Lo-19" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -899,7 +908,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="MXGi-TY2GJ7XGNcBM4Lo-34" value="下标值是否在map的values中" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+        <mxCell id="MXGi-TY2GJ7XGNcBM4Lo-34" value="下标值是否在map的values中&lt;div&gt;&amp;amp;&amp;amp;&lt;/div&gt;&lt;div&gt;map大小&amp;lt;列表长度&lt;/div&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="850.01" y="4430" width="140" height="100" as="geometry" />
         </mxCell>
         <mxCell id="MXGi-TY2GJ7XGNcBM4Lo-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="MXGi-TY2GJ7XGNcBM4Lo-35" target="MXGi-TY2GJ7XGNcBM4Lo-36" edge="1">
@@ -1144,6 +1153,63 @@
         </mxCell>
         <mxCell id="q8mAmE_B314rXEbR-qWp-1" value="1.渠道是否登陆&lt;div&gt;2.当前应用节点是否支持处理该货币对&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;rounded=1;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
           <mxGeometry x="200" y="2157" width="260" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;dashed=1;" edge="1" parent="1" source="q8mAmE_B314rXEbR-qWp-3" target="qGwItCddGWUua6QMG_1u-278">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-3" value="&lt;div&gt;当前应用节点是否支持处理该货币对&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;rounded=1;align=left;verticalAlign=middle;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="2143.5" width="260" height="83" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-5" value="多应用分别处理不同货币对的前置消息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-335" y="3278" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-6" value="量化心跳下行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="4948" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-7" value="行情心跳" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-135" y="4998" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q8mAmE_B314rXEbR-qWp-8" target="q8mAmE_B314rXEbR-qWp-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-8" value="渠道登陆成功时，发送默认订阅后" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="5070" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-9" value="发送成功心跳下行消息并将消息内容放入redis中" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="5210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-11" value="接收HeartBeatRet消息，在redis更新渠道的心跳时间，120s有效" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="5340" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-12" value="接收SysStatus消息，遍历全部的SessionStatus，存在不是正常状态的时下发心跳失败消息并记入内存中，下次接到消息再一次遍历处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-155" y="5465" width="165" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-14" value="登陆消息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-195" y="5070" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-16" value="心跳消息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-197" y="5310" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-18" value="系统状态消息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-230" y="5450" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-19" value="定时批量，每30s执行一次" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="4988" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q8mAmE_B314rXEbR-qWp-21" target="q8mAmE_B314rXEbR-qWp-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-21" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="5055" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q8mAmE_B314rXEbR-qWp-22" target="q8mAmE_B314rXEbR-qWp-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-22" value="获取环境变量当前应用的workId" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="150" y="5170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-24" value="计算当前时间对应的30s时间段的截至时间&lt;div&gt;11:30:00对应的是&lt;/div&gt;&lt;div&gt;11:30:30&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="150" y="5310" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
