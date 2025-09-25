@@ -4,6 +4,12 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="q8mAmE_B314rXEbR-qWp-55" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-355" y="5640" width="415" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-42" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-361" y="5045" width="415" height="555" as="geometry" />
+        </mxCell>
         <mxCell id="q8mAmE_B314rXEbR-qWp-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="-230" y="5450" width="248.75" height="140" as="geometry" />
         </mxCell>
@@ -1166,9 +1172,6 @@
         <mxCell id="q8mAmE_B314rXEbR-qWp-6" value="量化心跳下行" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-180" y="4948" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="q8mAmE_B314rXEbR-qWp-7" value="行情心跳" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-135" y="4998" width="70" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="q8mAmE_B314rXEbR-qWp-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q8mAmE_B314rXEbR-qWp-8" target="q8mAmE_B314rXEbR-qWp-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -1208,8 +1211,91 @@
         <mxCell id="q8mAmE_B314rXEbR-qWp-22" value="获取环境变量当前应用的workId" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="150" y="5170" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q8mAmE_B314rXEbR-qWp-24" target="q8mAmE_B314rXEbR-qWp-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="q8mAmE_B314rXEbR-qWp-24" value="计算当前时间对应的30s时间段的截至时间&lt;div&gt;11:30:00对应的是&lt;/div&gt;&lt;div&gt;11:30:30&lt;/div&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="150" y="5310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q8mAmE_B314rXEbR-qWp-26" target="q8mAmE_B314rXEbR-qWp-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-26" value="获取redis缓存中全部的节点时间" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="150" y="5450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q8mAmE_B314rXEbR-qWp-28" target="q8mAmE_B314rXEbR-qWp-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="q8mAmE_B314rXEbR-qWp-28" target="q8mAmE_B314rXEbR-qWp-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="6040" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="5615" />
+              <mxPoint x="300" y="6030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-28" value="是否存在节点与当前的节点计算的时间差60s" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="140" y="5575" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-32" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="200" y="5660" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q8mAmE_B314rXEbR-qWp-33" target="q8mAmE_B314rXEbR-qWp-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-33" value="应用节点获取执行后续逻辑的分布式锁是否成功" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="135" y="5720" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="q8mAmE_B314rXEbR-qWp-35" target="q8mAmE_B314rXEbR-qWp-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-35" value="并发执行发送心跳消息逻辑" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="150" y="5890" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-37" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="205" y="5820" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-40" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="160" y="6000" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-44" value="是" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="5618" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="q8mAmE_B314rXEbR-qWp-33" target="q8mAmE_B314rXEbR-qWp-40">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="5760" />
+              <mxPoint x="100" y="6030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-46" value="否" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="5758" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-47" value="行情涉及场景和发送心跳检查条件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-355" y="5055" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-49" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-182.5" y="5655" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-50" value="接收HeartBeatRet消息，在redis更新渠道的心跳时间，120s有效" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-95" y="5730" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-51" value="心跳消息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-180" y="5660" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-52" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-211.25" y="5810" width="248.75" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-53" value="接收SysStatus消息，遍历全部的SessionStatus，存在不是正常状态的时下发心跳失败消息并记入内存中，下次接到消息再一次遍历处理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="5830" width="165" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-54" value="系统状态消息" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-211.25" y="5820" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="q8mAmE_B314rXEbR-qWp-56" value="交易涉及场景和发送心跳检查条件" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="5655" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
